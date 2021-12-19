@@ -2,14 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta name="theme-color" content="#f4f4f4" />
+    <meta name="description" content="Get Free Holi Templates at Workforwin Templates."/>
+    <meta name="keywords" content="holi templates, templates, Workforwin templates, holi poster, holi 2020, holi 2021, holi festival, holi, happy holi, holi images, holi background" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo" />
+    <link rel="sitemap" href="%PUBLIC_URL%/sitemap.xml" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +23,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Workforwin Social Templates</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -40,4 +39,17 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    const popup = document.querySelector('.popup');
+    const close = document.querySelector('.close');
+    window.onload = function(){
+        setTimeout(function(){
+            popup.style.display = "block";
+        }, 100)
+    }
+
+    close.addEventListener('click', () => {
+      popup.style.display = "none";
+    })
+  </script>
 </html>

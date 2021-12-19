@@ -1,0 +1,114 @@
+.section3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* height: 80vh; */
+    /* width:80%;  */
+}
+.section4{
+    margin-top: -100px;
+}
+.section5{
+    margin-top: -150px;
+}
+.section3__left{
+    width: 50%;
+    height: 80vh;
+}
+.section3__right{
+    width: 50%;
+    height: 80vh;
+}
+.section3__right img{
+    height: 500px;
+}
+.section8__right img{
+    height: 400px;
+}
+.section3__heading{
+    font-size: 3em;
+    font-weight: 900;
+    background: -webkit-linear-gradient(45deg, rgb(15, 5, 113),rgb(191, 90, 222));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: monospace;
+}
+.section3__heading2{
+    font-family: cursive;
+    font-size: 2em;
+    /* font-weight: 400; */
+    background: -webkit-linear-gradient(45deg, #ff3190,#fc86d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section3__card{
+    background: linear-gradient(45deg, rgb(138, 58, 185,0.5), rgb(252, 134, 212,0.3));
+}
+.heading2{
+    background: -webkit-linear-gradient(45deg, rgb(255, 107, 18),rgb(255, 165, 43));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card4{
+    background: linear-gradient(45deg, rgb(255, 107, 18,0.5), rgb(255, 165, 43,0.3));
+}
+.heading5{
+    background: -webkit-linear-gradient(45deg, rgb(52, 43, 234),rgb(66, 92, 236));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card5{
+    background: linear-gradient(45deg, rgb(52, 43, 234,0.5), rgb(66, 92, 236,0.3));
+}
+.heading6{
+    background: -webkit-linear-gradient(45deg, rgb(0, 161, 205),rgb(0, 227, 230));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card6{
+    background: linear-gradient(45deg, rgb(0, 161, 205,0.5), rgb(0, 227, 230,0.3));
+}
+.heading7{
+    background: -webkit-linear-gradient(45deg, rgb(36, 212, 122),rgb(54, 221, 171));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card7{
+    background: linear-gradient(45deg, rgb(36, 212, 122,0.5), rgb(52, 221, 169,0.3));
+}
+.heading8{
+    background: -webkit-linear-gradient(45deg, rgb(230, 156, 0),rgb(255, 224, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card8{
+    background: linear-gradient(45deg, rgb(230, 156, 0,0.5), rgb(255, 224, 0,0.3));
+}
+
+@media screen and (max-width: 768px){
+    .section3__heading{
+        font-size: 2em;
+        margin-top: -30px;
+    }
+    .section3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section3__left{
+        width: 100%;
+        margin-top: -50px;
+    }
+    .section3__right{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .section3__right img{
+        height: 350px;
+    }
+    .section3__heading2{
+        font-size: 1.5em;
+    }
+    .section8__right img{
+        height: 150px;
+    }
+}
